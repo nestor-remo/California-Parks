@@ -1,13 +1,14 @@
 import './App.css'
-import Card from './components/Card'
+import Board from './components/Board'
 
 const App = () => {
 
   return (
     <div className='App'>
-      <h1>Hello world!</h1>
-      <h2> Welcome to my app</h2>
-      <Card />
+      <h1> Welcome to California! </h1>
+      <h2> Here you will find nearby parks in the area: </h2>
+      <br />
+      <Board />
     </div>
   )
 }
