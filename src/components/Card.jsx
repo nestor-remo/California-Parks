@@ -1,4 +1,5 @@
 import React from "react";
+import '../index.css';
 
 const Card = (props) => {
     return (
@@ -7,7 +8,7 @@ const Card = (props) => {
             <h5>{props.name}</h5>
             <h6>{props.location}</h6>
             <a href={props.link} target="_blank" rel="noopener noreferrer">
-                <button>{props.text}</button>
+                <button>Visit!</button>
             </a>
         </div>
     )
